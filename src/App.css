@@ -1,0 +1,75 @@
+/* Styling for the main container */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styling for the heading */
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+/* Styling for the form container */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+}
+
+/* Styling for individual input fields */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+/* Styling for inputs, select, and textarea elements */
+input, select, textarea {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 100px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6674e1;
+  border:2px;
+  border-radius: 10px;
+}
+
+/* Styling for the buttons section */
+.buttons {
+  margin-top: 20px;
+  border:2px;
+  border-radius: 10px;
+}
+body{
+ /* background-color: #F3F3E0;*/
+background-image: url("https://images.unsplash.com/photo-1740676176411-816376ae5655?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D");
+background-size :cover ;
+backdrop-filter: blur(2px);
+}
